@@ -1,0 +1,89 @@
+@media screen and (min-width: 600px) {
+  html {
+    font-size: 115%;
+  }
+
+  header {
+    justify-content: space-between;
+  }
+
+  header .navbar {
+    position: static;
+    padding: 0;
+    background-color: transparent;
+    gap: 8px;
+    box-shadow: none;
+    opacity: 1;
+    width: fit-content;
+    border: none;
+  }
+
+  header .navbar ul {
+    flex-direction: row;
+  }
+
+  header .navbar ul li a {
+    font-size: 1rem;
+    padding: .2rem .5rem;
+    box-shadow: none;
+    background-color: transparent;
+    border: none;
+  }
+
+  header .navbar ul li a.active,
+  header .navbar ul li a:hover {
+    background-color: transparent;
+    color: #175c40;
+    box-shadow: none;
+    border: none;
+  }
+
+  header #menu-button {
+    display: none;
+  }
+
+  .skillset__content {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media screen and (min-width: 750px) {
+  .banner {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .banner__content {
+    flex: 1.5;
+    text-align: start;
+    align-items: start;
+  }
+
+  .banner figure {
+    width: 28rem;
+  }
+
+  .about__content__circle-spinner {
+    width: 18rem;
+    height: 18rem;
+  }
+
+  .about__content figure img {
+    width: 15rem;
+    height: 15rem;
+  }
+
+  .skill i {
+    font-size: 7rem;
+  }
+
+  .projects__content {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .projects__content {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}

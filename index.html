@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ryan Bagus</title>
+  </head>
+  <body>
+    <header>
+      <h1 class="logo">Ryan.</h1>
+  
+      <nav class="navbar">
+        <ul>
+          <li><a class="active" href="#banner">Beranda</a></li>
+          <li><a href="#about">Tentang Saya</a></li>
+          <li><a href="#projects">Projek</a></li>
+          <li><a href="#skillset">Skill</a></li>
+        </ul>
+      </nav>
+  
+      <button class="fas fa-bars" id="menu-button"></button>
+    </header>
+
+    <main>
+      <section class="banner" id="banner">
+        <div class="banner__content">
+          <h2>Halo, Saya Ryan</h2>
+          <div class="banner__content__text-typing">
+            <h3>Fullstack Developer</h3>
+          </div>
+          <p>Saya merupakan seorang Fullstack Developer yang gemar dalam pembuatan aplikasi berbasis web. Selalu mengikuti tren teknologi terbaru, karena pemrograman adalah passion saya.</p>
+          <div class="banner__content__button">
+            <a class="button green" target="_blank" href="https://github.com/RyanBagusB/">GitHub Saya</a>
+            <a class="button transparent" target="_blank" href="https://drive.google.com/file/d/1x5tbRGGpvbGveKRlcc2caNPp8-QO-oN0/view?usp=drivesdk">CV Saya</a>
+          </div>
+        </div>
+        <figure>
+          <img src="/banner-photo.png" alt="my photo">
+        </figure>
+      </section>
+
+      <section class="about" id="about">
+        <h2 class="heading">Tentang <span>Saya</span></h2>
+
+        <div class="about__content">
+          <figure>
+            <img src="/my-photo.jpg" alt="my photo">
+            <span class="about__content__circle-spinner"></span>
+          </figure>
+
+          <div class="about__content__information">
+            <h3>Ryan Bagus Bimantoro</h3>
+            <p>Selama tiga tahun terakhir, saya belajar pengembangan web fullstack, yang saya dapat sebagai mahasiswa Informatika maupun beasiswa gratis seperti Codepolitan dan Dicoding.</p>
+            <p>Saya nyaman menggunakan JavaScript, baik native maupun menggunakan framework seperti Vue.js dan Express. Saya juga mempelajari PHP dan Laravel melalui tutorial di YouTube.</p>                       
+            <a class="button green" href="#projects">Projek Saya</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="projects" id="projects">
+        <h2 class="heading">Projek <span>Saya</span></h2>
+      
+        <div class="projects__content">
+          <div class="project">
+            <figure>
+              <img src="/ryanresto.png" alt="my photo">
+            </figure>
+      
+            <div class="project__information">
+              <h3>Restoran</h3>
+              <p>Projek ini dikembangkan dengan menggunakan HTML, CSS, dan JavaScript secara native, serta didukung oleh backend yang dibangun dengan Express.js. Website ini memiliki fitur seperti melihat menu, menambahkan menu ke keranjang, dan memberikan komentar. Desainnya responsif dan ramah pengguna.</p>
+            </div>
+            <div class="project-floating">
+              <a target="_blank" href="https://ryanbagusb.github.io/ryanresto/"><i class="fa-solid fa-share"></i>Kunjungi Website</a>
+            </div>
+          </div>
+
+          <div class="project">
+            <figure>
+              <img src="/batik.png" alt="my photo">
+            </figure>
+      
+            <div class="project__information">
+              <h3>Batik</h3>
+              <p>Projek Batik ini dibuat untuk UMKM penjualan batik sebagai bagian dari pengabdian dosen. Sebagai mahasiswa, saya ditugaskan untuk mengembangkan website ini. Website ini menampilkan katalog batik dengan fitur khusus bagi admin untuk menambah, mengupdate, atau menghapus produk. Desainnya responsif dan mudah digunakan.</p>
+            </div>
+            <div class="project-floating">
+              <a target="_blank" href="http://octnobatiksegunung.com/"><i class="fa-solid fa-share"></i>Kunjungi Website</a>
+            </div>
+          </div>
+        </div>
+      </section>      
+
+      <section class="skillset" id="skillset">
+        <h2 class="heading">Skillset <span>Saya</span></h2>
+      
+        <div class="skillset__content">
+          <div class="skill">
+            <i class="fa-brands fa-html5"></i>
+            <span class="skill-label">HTML5</span>
+          </div>
+          <div class="skill">
+            <i class="fa-brands fa-css3-alt"></i>
+            <span class="skill-label">CSS3</span>
+          </div>
+          <div class="skill">
+            <i class="fa-brands fa-js"></i>
+            <span class="skill-label">JavaScript</span>
+          </div>
+          <div class="skill">
+            <i class="fa-brands fa-node"></i>
+            <span class="skill-label">Node.js</span>
+          </div>
+          <div class="skill">
+            <i class="fa-brands fa-php"></i>
+            <span class="skill-label">PHP</span>
+          </div>
+          <div class="skill">
+            <i class="fa-brands fa-laravel"></i>
+            <span class="skill-label">Laravel</span>
+          </div>
+          <div class="skill">
+            <i class="fa-brands fa-vuejs"></i>
+            <span class="skill-label">Vue.js</span>
+          </div>
+          <div class="skill">
+            <i class="fa-brands fa-react"></i>
+            <span class="skill-label">React</span>
+          </div>
+        </div>
+      </section>      
+    </main>
+
+    <footer>
+      <p>&copy; 2024 Ryan Bagus Bimantoro.</p>
+    </footer>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
